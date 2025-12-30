@@ -1,0 +1,37 @@
+# Core app
+streamlit>=1.32.0
+pandas>=2.1.0
+numpy>=1.26.0
+
+# Data + charts
+yfinance>=0.2.33
+plotly>=5.18.0
+scipy>=1.11.0
+statsmodels>=0.14.0
+seaborn>=0.13.0
+
+# Excel export (fixes: No module named 'openpyxl')
+openpyxl>=3.1.2
+xlsxwriter>=3.1.2
+
+# Risk / models
+scikit-learn>=1.3.0
+hmmlearn>=0.3.0
+arch>=6.3.0
+
+# Portfolio optimization (Black-Litterman / PyPortfolioOpt)
+PyPortfolioOpt>=1.5.5
+cvxpy>=1.4.0
+ecos>=2.0.12
+osqp>=0.6.5
+scs>=3.2.4
+
+# ML / signals (used by your merged file)
+xgboost>=2.0.0
+ta>=0.11.0
+quantstats>=0.0.62
+
+# USDJPY page helpers
+streamlit-autorefresh>=1.0.1
+
+# If Streamlit Cloud build struggle
